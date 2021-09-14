@@ -24,7 +24,6 @@ public class Empresa {
 	private List<Rota> rotas= new ArrayList<>();
 	
 	
-	
 	public Empresa() {
 	
 	}

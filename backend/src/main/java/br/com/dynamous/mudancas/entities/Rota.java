@@ -27,11 +27,11 @@ public class Rota {
 		
 	}
 
-	public Rota(Long id, LocalDate data) {
+	public Rota(Long id, LocalDate data,Empresa empresa) {
 		this.id = id;
 		this.data = data;
+		this.empresa=empresa;
 	}
-
 	public Long getId() {
 		return id;
 	}
